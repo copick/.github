@@ -83,6 +83,17 @@ for run in root.runs:
 - [CZ cryoET Data Portal](https://cryoetdataportal.czscience.com/) — Public repository of cryoET datasets
 - [Example Dataset](https://doi.org/10.5281/zenodo.16996074) — Sample copick project on Zenodo
 
+## Contributors
+
+| | GitHub | Packages |
+|--|--------|----------|
+| <img src="https://github.com/uermel.png" width="40"> | [@uermel](https://github.com/uermel) | copick, copick-utils, napari-copick, chimerax-copick, copick-torch, copick-mcp |
+| <img src="https://github.com/kephale.png" width="40"> | [@kephale](https://github.com/kephale) | copick, copick-utils, napari-copick, copick-torch, copick-mcp |
+| <img src="https://github.com/jtschwar.png" width="40"> | [@jtschwar](https://github.com/jtschwar) | copick, copick-utils, copick-torch |
+| <img src="https://github.com/zhuowenzhao.png" width="40"> | [@zhuowenzhao](https://github.com/zhuowenzhao) | copick, copick-utils |
+| <img src="https://github.com/daniel-ji.png" width="40"> | [@daniel-ji](https://github.com/daniel-ji) | copick |
+| <img src="https://github.com/andy-sweet.png" width="40"> | [@andy-sweet](https://github.com/andy-sweet) | copick |
+
 ## Contributing
 
 We welcome contributions! See our [Contributing Guide](https://github.com/copick/copick/blob/main/docs/contributing.md) for development setup and guidelines.
