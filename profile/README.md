@@ -48,9 +48,9 @@ We provide a cross-platform, storage-agnostic, and server-less dataset API that 
 | [copick-mcp](https://github.com/copick/copick-mcp) | [![PyPI](https://img.shields.io/pypi/v/copick-mcp.svg?logo=pypi&logoColor=white)](https://pypi.org/project/copick-mcp/) | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17800059-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.17800059) | MCP server for Claude AI integration | `pip install copick-mcp` |
 | [octopi](https://github.com/chanzuckerberg/octopi) | [![PyPI](https://img.shields.io/pypi/v/octopi.svg?logo=pypi&logoColor=white)](https://pypi.org/project/octopi/) | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18511916-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.18511916) | Deep learning framework for cryoET 3D particle picking | `pip install octopi` |
 | [saber](https://github.com/chanzuckerberg/saber) | [![PyPI](https://img.shields.io/pypi/v/saber-em.svg?logo=pypi&logoColor=white)](https://pypi.org/project/saber-em/) | | Autonomous segmentation of organelles from cryoET | `pip install saber-em` |
-| [py2rely](https://github.com/chanzuckerberg/py2rely) | | | Sub-tomogram averaging workflows for SLURM-based HPC | `git clone https://github.com/chanzuckerberg/py2rely && pip install -e py2rely` |
+| [py2rely](https://github.com/chanzuckerberg/py2rely) | | | Sub-tomogram averaging workflows for SLURM-based HPC | [see repo](https://github.com/chanzuckerberg/py2rely) |
 | [topcup](https://github.com/czimaginginstitute/czii_cryoet_mlchallenge_winning_models) | | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18501364-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.18501364) | Winning models for CZII cryoET ML Challenge | `pip install topcup` |
-| [slabpick](https://github.com/apeck12/slabpick) | | | Particle picking from 2D projections of tomography data | `git clone https://github.com/apeck12/slabpick && pip install -e slabpick` |
+| [slabpick](https://github.com/apeck12/slabpick) | | | Particle picking from 2D projections of tomography data | [see repo](https://github.com/apeck12/slabpick) |
 
 ## Quick Start
 
