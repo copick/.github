@@ -101,18 +101,22 @@ We welcome contributions! See our [Contributing Guide](https://github.com/copick
 All projects follow the [Contributor Covenant Code of Conduct](https://github.com/chanzuckerberg/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Citation
-
 If you use copick in your research, please cite:
 
 ```bibtex
-@article{harrington2024open,
-  title={Open-source Tools for CryoET Particle Picking Machine Learning Competitions},
-  author={Harrington, Kyle I. and Zhao, Zhuowen and Schwartz, Jonathan and Kandel, Saugat and Ermel, Utz and Paraan, Mohammadreza and Potter, Clinton and Carragher, Bridget},
-  journal={NeurIPS 2024 Workshop on Machine Learning in Structural Biology},
-  year={2024},
-  doi={10.1101/2024.11.04.621608}
+@article{ermel2026copick,
+  title={copick: An open dataset interface and toolkit for collaborative annotation and analysis of cryo-electron tomography data},
+  author={Ermel, Utz Heinrich and Schwartz, Jonathan and Zhao, Zhuowen and Ji, Daniel and Peck, Ariana and Yu, Yue and Paraan, Mohammadreza and Carragher, Bridget and Frangakis, Achilleas S. and Harrington, Kyle I. S.},
+  journal={Protein Science},
+  volume={35},
+  number={5},
+  pages={e70578},
+  year={2026},
+  doi={10.1002/pro.70578}
 }
 ```
+ 
+📄 [https://doi.org/10.1002/pro.70578](https://doi.org/10.1002/pro.70578)
 
 ## License
 
