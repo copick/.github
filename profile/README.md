@@ -18,6 +18,8 @@
 
 We provide a cross-platform, storage-agnostic, and server-less dataset API that enables researchers to access and manage tomography data seamlessly—regardless of where it's stored.
 
+> 📄 **Using copick in your research?** Please cite our paper in [_Protein Science_](https://doi.org/10.1002/pro.70578). See [Citation](#citation) for the BibTeX entry.
+
 ## Packages
 
 ### Core
@@ -40,6 +42,7 @@ We provide a cross-platform, storage-agnostic, and server-less dataset API that 
 | [napari-copick](https://github.com/copick/napari-copick) | [![PyPI](https://img.shields.io/pypi/v/napari-copick.svg?logo=pypi&logoColor=white)](https://pypi.org/project/napari-copick/) | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17799844-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.17799844) | [Napari](https://napari.org) plugin for interactive annotation | `pip install napari-copick` |
 | [chimerax-copick](https://github.com/copick/chimerax-copick) | | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17799783-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.17799783) | [UCSF ChimeraX](https://www.rbvi.ucsf.edu/chimerax/) plugin for 3D visualization | [ChimeraX Toolshed](https://cxtoolshed.rbvi.ucsf.edu/apps/chimeraxcopick) |
 | [copick-shared-ui](https://github.com/copick/copick-shared-ui) | [![PyPI](https://img.shields.io/pypi/v/copick-shared-ui.svg?logo=pypi&logoColor=white)](https://pypi.org/project/copick-shared-ui/) | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17799860-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.17799860) | Shared Qt UI components for plugins | `pip install copick-shared-ui` |
+| [copick-web](https://github.com/copick/copick-web) | | | Web-based viewer for cryoET data in the browser | [see repo](https://github.com/copick/copick-web) |
 
 ### Integrations
 
@@ -50,6 +53,7 @@ We provide a cross-platform, storage-agnostic, and server-less dataset API that 
 | [saber](https://github.com/chanzuckerberg/saber) | [![PyPI](https://img.shields.io/pypi/v/saber-em.svg?logo=pypi&logoColor=white)](https://pypi.org/project/saber-em/) | | Autonomous segmentation of organelles from cryoET | `pip install saber-em` |
 | [py2rely](https://github.com/chanzuckerberg/py2rely) | | | Sub-tomogram averaging workflows for SLURM-based HPC | [see repo](https://github.com/chanzuckerberg/py2rely) |
 | [topcup](https://github.com/czimaginginstitute/czii_cryoet_mlchallenge_winning_models) | | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18501364-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.18501364) | Winning models for CZII cryoET ML Challenge | `pip install topcup` |
+| [copick-easymode](https://github.com/copick/copick-easymode) | | | Pretrained segmentation models for the copick CLI | [see repo](https://github.com/copick/copick-easymode) |
 | [slabpick](https://github.com/apeck12/slabpick) | | | Particle picking from 2D projections of tomography data | [see repo](https://github.com/apeck12/slabpick) |
 
 ## Quick Start
@@ -87,12 +91,13 @@ for run in root.runs:
 
 | | GitHub | Packages |
 |--|--------|----------|
-| <img src="https://github.com/uermel.png" width="40"> | [@uermel](https://github.com/uermel) | copick, copick-utils, napari-copick, chimerax-copick, copick-torch, copick-mcp |
+| <img src="https://github.com/uermel.png" width="40"> | [@uermel](https://github.com/uermel) | copick, copick-utils, napari-copick, chimerax-copick, copick-torch, copick-mcp, copick-web, copick-easymode |
 | <img src="https://github.com/kephale.png" width="40"> | [@kephale](https://github.com/kephale) | copick, copick-utils, napari-copick, copick-torch, copick-mcp |
-| <img src="https://github.com/jtschwar.png" width="40"> | [@jtschwar](https://github.com/jtschwar) | copick, copick-utils, copick-torch |
+| <img src="https://github.com/jtschwar.png" width="40"> | [@jtschwar](https://github.com/jtschwar) | copick, copick-utils, copick-torch, copick-easymode |
 | <img src="https://github.com/zhuowenzhao.png" width="40"> | [@zhuowenzhao](https://github.com/zhuowenzhao) | copick, copick-utils |
 | <img src="https://github.com/daniel-ji.png" width="40"> | [@daniel-ji](https://github.com/daniel-ji) | copick |
 | <img src="https://github.com/andy-sweet.png" width="40"> | [@andy-sweet](https://github.com/andy-sweet) | copick |
+| <img src="https://github.com/david-dong-biohub.png" width="40"> | [@david-dong-biohub](https://github.com/david-dong-biohub) | copick-web |
 
 ## Contributing
 
